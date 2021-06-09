@@ -1,0 +1,16 @@
+{
+	"test": {
+		"firstBaseServer": "1CTST1",
+		"firstBaseName": "DEV_DOCFLOW_Milyutinskiy",
+		"secondBaseServer": "msk10lyt3",
+		"secondBasename": "DEV_ACC_SIMPLE_Milyutinskiy",
+		"exhangeName": "ОбменБухгалтерияПредприятияДокументооборот20_СИМ"
+	},
+	"rules": {
+		"firstPath": "DocFlow/Правила конвертации DF2ACC/",
+		"secondPath": "ACC/Правила конвертации ACC2DF/",
+		"firstZip": "Правила обмена DF2ACC.zip",
+		"secondZip": "Правила обмена ACC2DF.zip",
+		"synckCorrAndExch": false
+	}
+}
