@@ -1,16 +1,16 @@
 {
 	"test": {
-		"firstBaseServer": "1CTST1",
-		"firstBaseName": "DEV_DOCFLOW_Milyutinskiy",
-		"secondBaseServer": "msk10lyt3",
-		"secondBasename": "DEV_ACC_SIMPLE_Milyutinskiy",
-		"exhangeName": "ОбменБухгалтерияПредприятияДокументооборот20_СИМ"
+		"firstBaseServer": "MSK101CTST1",
+		"firstBaseName": "DEV_HRM_Milyutinskiy",
+		"secondBaseServer": "MSK10lyt3",
+		"secondBaseName": "DEV_ACC_SIMPLE_Milyutinskiy",
+		"exchangeName": "ОбменЗарплата3Бухгалтерия3",
+		"setRulesProcessorPath":"D:\\tools\\OneCTools\\ЗагрузитьКомплектПравилВИнформационнуюБазу.epf"
 	},
 	"rules": {
-		"firstPath": "DocFlow/Правила конвертации DF2ACC/",
-		"secondPath": "ACC/Правила конвертации ACC2DF/",
-		"firstZip": "Правила обмена DF2ACC.zip",
-		"secondZip": "Правила обмена ACC2DF.zip",
-		"synckCorrAndExch": false
+		"firstPath": "HRM/Правила конвертации HRM2ACC/",
+		"secondPath": "ACC/Правила конвертации ACC2HRM/",
+		"firstZip": "Правила обмена HRM2ACC.zip",
+		"secondZip": "Правила обмена ACC2HRM.zip"
 	}
 }
